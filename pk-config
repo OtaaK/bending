@@ -386,7 +386,7 @@ Abilities:
       Speed: 0.675
       Interval: 100
       Radius: 1
-      Cooldown: 7000
+      Cooldown: 500
       MaxHeightFromGround: 7
     AirShield:
       Enabled: true
