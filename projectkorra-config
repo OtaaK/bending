@@ -403,7 +403,7 @@ Abilities:
       SelectRange: 10
       SelectParticles: 4
       Particles: 6
-      Cooldown: 1100
+      Cooldown: 750
       Push:
         Self: 1.4
         Entities: 3.5
@@ -414,32 +414,32 @@ Abilities:
     AirBurst:
       Enabled: true
       FallThreshold: 10
-      PushFactor: 1.5
+      PushFactor: 3
       ChargeTime: 1750
-      Damage: 2.92
+      Damage: 0
       Cooldown: 2000
-      SneakParticles: 10
+      SneakParticles: 5
       ParticlePercentage: 30
       AnglePhi: 10
       AngleTheta: 10
     AirScooter:
       Enabled: true
-      ShowSitting: false
+      ShowSitting: true
       Speed: 0.675
       Interval: 100
       Radius: 1
       Cooldown: 4000
-      Duration: 10000
+      Duration: 8000
       MaxHeightFromGround: 7
     AirShield:
       Enabled: true
-      Cooldown: 8000
-      Duration: 2000
+      Cooldown: 4000
+      Duration: 1500
       MaxRadius: 5
-      InitialRadius: 1
+      InitialRadius: 5
       Streams: 5
-      Speed: 10
-      Particles: 5
+      Speed: 25
+      Particles: 7
       DynamicCooldown: false
     AirSpout:
       Enabled: true
@@ -453,14 +453,14 @@ Abilities:
       Range: 20
       SelectRange: 10
       Radius: 2
-      Push: 2.0
-      Cooldown: 4000
+      Push: 0.5
+      Cooldown: 500
       Particles: 6
       SelectParticles: 6
     AirSwipe:
       Enabled: true
       Damage: 7.1
-      Range: 13
+      Range: 15
       Radius: 2
       Push: 0.5
       Arc: 16
@@ -477,13 +477,13 @@ Abilities:
       Duration: 0
     Suffocate:
       Enabled: true
-      ChargeTime: 500
-      Cooldown: 0
-      Range: 20
-      Damage: 10
-      DamageInitialDelay: 2
-      DamageInterval: 1
-      SlowPotency: 1
+      ChargeTime: 0
+      Cooldown: 15
+      Range: 15
+      Damage: 5
+      DamageInitialDelay: 1
+      DamageInterval: 0
+      SlowPotency: 100
       SlowDelay: 0.5
       SlowInterval: 1.25
       BlindPotentcy: 30
@@ -492,9 +492,9 @@ Abilities:
       CanBeUsedOnUndeadMobs: true
       RequireConstantAim: true
       RequireConstantAimRadius: 5
-      AnimationRadius: 2.0
+      AnimationRadius: 1.0
       AnimationParticleAmount: 1
-      AnimationSpeed: 1.0
+      AnimationSpeed: 5.0
     Tornado:
       Enabled: false
       Cooldown: 0
@@ -1004,9 +1004,9 @@ Abilities:
       ParticlesPercentage: 5
     FireJet:
       Enabled: true
-      Speed: 0.8
-      Duration: 2500
-      Cooldown: 6000
+      Speed: 1.2
+      Duration: 0.500
+      Cooldown: 5000
       ShowGliding: false
     FireManipulation:
       Enabled: false
@@ -1080,7 +1080,7 @@ Abilities:
       Width: 4
       Duration: 5000
       Damage: 10
-      Cooldown: 7000
+      Cooldown: 13000
       Interval: 250
       DamageInterval: 500
       FireTicks: 0
